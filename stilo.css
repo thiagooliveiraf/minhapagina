@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+h1{
+    font-weight: bold;
+}
+span{
+    color: #000000;
+}
+p {
+    background-color: grey;
+    color: black;
+}
+.apresentacao {
+    margin: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15%;
+}
+.apresentacao__conteudo{
+    width: 615px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+}
+.paragrafo {
+    font-size: 24px;
+}
+.subtitulolink {
+    font-family: 'KronaOne', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.link__links {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    border: 2px solid#000000;
+    color: white;
+    /* background-color: rgb(73, 73, 73); */
+    width: 318px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 15px 0;
+    text-decoration: none;
+} 
+.link__links:hover {
+    background-color: #272727;
+}
+.minhafoto {
+    border: 2px solid#000000;
+    padding: 10px;
+}
+.minhafoto:hover {
+    background-color: wheat;
+}
+.rodape {
+    color: white;
+    background-color: gray;
+}
